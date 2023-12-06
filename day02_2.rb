@@ -26,7 +26,7 @@ File.readlines('inputs/day02b.txt').each_with_index do |line, idx|
     color_max[color] = v.max
   end
 
-  multiple_number= color_max.values.inject(:*)
+  multiple_number = color_max.values.inject(:*)
   result_number += multiple_number
 end
 p result_numbers
